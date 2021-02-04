@@ -65,7 +65,7 @@
                 tools:text="@string/random_text" />
         </ScrollView>
 
-        <EditText
+        <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/nickname_edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -74,6 +74,7 @@
             android:hint="@string/nickname_string"
             android:inputType="textPersonName"
             android:textAlignment="center"
+            android:gravity="center_horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/name_text" />
